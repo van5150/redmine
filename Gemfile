@@ -71,7 +71,7 @@ else
   warn("Please configure your config/database.yml first")
 end
 
-gem 'pg'
+gem 'pg', ">= 0.11.0"
 
 group :development do
   gem "rdoc", ">= 2.4.2"
