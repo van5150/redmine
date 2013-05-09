@@ -72,6 +72,7 @@ else
 end
 
 gem 'pg', ">= 0.11.0"
+gem 'unicorn'
 
 group :development do
   gem "rdoc", ">= 2.4.2"
